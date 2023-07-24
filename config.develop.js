@@ -20,7 +20,7 @@ export default {
     RICH_LOG_ENABLED: false,
 
     // For embeds that require render, baseAppUrl will be used as the host.
-    baseAppUrl: "http://172.30.52.183:8061", // use "https://yourdomain.com/path" where you have Iframely in your reverse proxy
+    baseAppUrl: "https://pixpaembed.pixpa.in/", // use "https://yourdomain.com/path" where you have Iframely in your reverse proxy
     relativeStaticUrl: "/r",
 
     // Or just skip built-in renders altogether

@@ -170,7 +170,7 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 app.get('/', function(req, res) {
-  res.writeHead(302, { Location: 'http://iframely.com'});
+  // res.writeHead(302, { Location: 'http://iframely.com'});  
   res.end();
 });
 
